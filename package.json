@@ -1,0 +1,44 @@
+{
+  "name": "empolye-management-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "lite-server",
+    "test": "web-test-runner test/**/*.test.js --node-resolve",
+    "test:watch": "web-test-runner test/**/*.test.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lit/localize": "^0.12.2",
+    "@material/mwc-button": "^0.27.0",
+    "@material/mwc-select": "^0.27.0",
+    "@reduxjs/toolkit": "^2.5.0",
+    "@vaadin/router": "^2.0.0",
+    "i18next": "^24.2.1",
+    "i18next-browser-languagedetector": "^8.0.2",
+    "immer": "^9.0.21",
+    "lit": "^3.2.1",
+    "lit-router": "^0.2.2",
+    "path-to-regexp": "^8.2.0",
+    "process": "^0.11.10",
+    "react-i18next": "^15.4.0",
+    "react-redux": "^9.2.0",
+    "redux-persist": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@open-wc/testing": "^4.0.0",
+    "@testing-library/react": "latest",
+    "@web/dev-server-esbuild": "^0.3.6",
+    "@web/test-runner": "latest",
+    "@web/test-runner-commands": "^0.9.0",
+    "chai": "latest",
+    "jest": "^29.7.0",
+    "lite-server": "^2.6.1",
+    "sinon": "^19.0.2"
+  }
+}
