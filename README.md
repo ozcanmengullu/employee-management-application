@@ -6,6 +6,6 @@ npm install
 
 npm start 
 
-**Tets >>**
+**Test >>**
 
 npm test 
