@@ -1,11 +1,11 @@
-Installization
+**Instal >>**
 
 npm install
 
-Run
+**Run >>**
 
 npm start 
 
-Tets 
+**Tets >>**
 
 npm test 
